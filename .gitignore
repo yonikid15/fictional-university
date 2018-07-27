@@ -36,7 +36,7 @@ settings.js
 webpack.config.js
 package.json
 package-lock.json
-app/local.php
+/local.php
 
 # ignore all files starting with .
 .*
@@ -65,9 +65,6 @@ Thumbs.db
 
 # ignore declare.css 
 wp-content/themes/baastel/declare.css/
-
-# ignore local.php file ( for database config switch btw local and live )
-app/local.php
 
 # ignore log files and databases
 *.log
